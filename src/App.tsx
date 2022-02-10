@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react'
+import './App.scss';
+import Result from './components/Result';
+import { adjectives } from './words/adjectives'
+import { nouns } from './words/nouns'
 
 function App() {
+
+  const [adjectivesList, setAdjectivesList] = useState<string[]>([]);
+  const [nounsList, setNounsList] = useState<string[]>([]);
+  const [sprintName, setSprintName] = useState<string>("");
+
+  useEffect(() => {
+    setAdjectivesList(adjectives);
+    setNounsList(nouns);
+  }, [])
+
+  const handleGenerate = () => {
+    const selectedAdjIndex = Math.floor(Math.random() * adjectivesList.length)
+    const selectedNounIndex = Math.floor(Math.random() * nounsList.length)
+
+    setSprintName(`${adjectivesList[selectedAdjIndex]} ${nounsList[selectedNounIndex]}`)
+}
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Siegfried Sprint Name Generator
+      <div>
+        <button onClick={handleGenerate}>Generate</button>
+      </div>
+      <Result text={sprintName}/>
     </div>
   );
 }
