@@ -58,7 +58,6 @@ export const nouns = [
   "Tenor",
   "Variation",
   "Verdi",
-  "Violetta",
   "Waltz",
   "Water",
   "Winter",

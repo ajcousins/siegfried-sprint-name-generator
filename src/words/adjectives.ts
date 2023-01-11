@@ -68,7 +68,6 @@ export const adjectives = [
   "Large",
   "Little",
   "Lively",
-  "Livid",
   "Magenta",
   "Major",
   "Mauve",
