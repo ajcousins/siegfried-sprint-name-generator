@@ -39,6 +39,7 @@ export const nouns = [
   "Nutcracker",
   "Organist",
   "Paderewski",
+  "Phantom",
   "Rhapsody",
   "Rizz",
   "Rondo",
