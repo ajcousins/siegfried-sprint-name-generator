@@ -88,6 +88,7 @@ export const adjectives = [
   "Stuffed",
   "Stylish",
   "Sunny",
+  "sus",
   "Sweet",
   "Tabbable",
   "Territorial",
