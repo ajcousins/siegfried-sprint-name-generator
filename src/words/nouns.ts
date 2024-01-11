@@ -37,7 +37,6 @@ export const nouns = [
   "Mouse",
   "Movement",
   "Nutcracker",
-  "Onii-chan",
   "Organist",
   "Paderewski",
   "Phantom",
