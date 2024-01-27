@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/siegfried-sprint-name-generator/static/css/main.246bdd1b.css",
-    "main.js": "/siegfried-sprint-name-generator/static/js/main.0c545445.js",
+    "main.js": "/siegfried-sprint-name-generator/static/js/main.483b5589.js",
     "index.html": "/siegfried-sprint-name-generator/index.html",
     "main.246bdd1b.css.map": "/siegfried-sprint-name-generator/static/css/main.246bdd1b.css.map",
-    "main.0c545445.js.map": "/siegfried-sprint-name-generator/static/js/main.0c545445.js.map"
+    "main.483b5589.js.map": "/siegfried-sprint-name-generator/static/js/main.483b5589.js.map"
   },
   "entrypoints": [
     "static/css/main.246bdd1b.css",
-    "static/js/main.0c545445.js"
+    "static/js/main.483b5589.js"
   ]
 }
