@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     setAdjectivesList(adjectives);
     setNounsList(nouns);
-    console.log("Last updated: 27/01/24");
+    console.log("Last updated: 08/03/24");
   }, [])
 
   const handleGenerate = () => {
