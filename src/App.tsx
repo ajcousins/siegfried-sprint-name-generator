@@ -35,6 +35,7 @@ function App() {
     setSprintName(sprintNameCookieValue);
     setGenerateButtonText(sprintName ? 'Regenerate' : 'Generate');
     setShouldGenerate(!lastGenerated || !sprintName || intervalElapsed(lastGenerated))
+    console.log("Last updated: 10/01/25");
   }, [lastGenerated, sprintName])
 
   const handleGenerate = () => {
